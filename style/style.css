@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.style-table {
+   padding: 5px;
+   border:  1px solid  rgb(185, 185, 185);
+   width: 99.99%;
+}
+
+table, th, td{
+    text-align: left;
+    border:  1px solid  rgb(185, 185, 185);
+    border-collapse: collapse;
+    padding: 7px;   
+}
+tr:hover {background-color: #f5f5f5;}
+thead, tr:nth-child(even) {background-color: #f5f5f5;}
